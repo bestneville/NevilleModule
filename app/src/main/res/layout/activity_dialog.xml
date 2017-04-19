@@ -14,16 +14,28 @@
             android:orientation="vertical"
             >
             <TextView
-                android:id="@+id/tv_dialog"
+                android:id="@+id/tv_with_layout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="dialog"
+                android:text="普通布局引入dialog"
                 android:textColor="#fff"
                 android:background="#000"
                 android:padding="10dp"
                 />
 
+
+            <TextView
+                android:id="@+id/tv_with_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="普通布局引入底部弹出dialog"
+                android:textColor="#fff"
+                android:background="#000"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                />
         </LinearLayout>
 
     </ScrollView>
+
 </LinearLayout>
